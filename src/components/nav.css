@@ -1,0 +1,11 @@
+ul{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    width: 100vw;
+    
+}
+.nav{
+    box-shadow: 0 0 18px -4px #7b88cd;
+    /* position: fixed; */
+    z-index: 3;
+}

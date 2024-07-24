@@ -1,0 +1,123 @@
+.cards{
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0 0 18px -4px #616784;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+.cardin{
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+}
+.cardin h1{
+    font-size: 48px;
+    padding: 20px;
+}
+.cardin p{
+    font-size: 29px;
+}
+.cards img{
+    height: 50vh;
+    margin: auto;
+    width: 50%;
+    border-radius: 3%;
+}
+.flex{
+    padding: 7%;
+}
+.flex p{
+   
+font-size: 25px;
+font-style: italic;
+text-align: justify;
+}
+[data-mesh-id=SITE_FOOTERinlineContent] {
+    height: auto;
+    width: 100%;
+}
+.formaccademic{
+width: 100vw;
+
+color: white;
+}
+.formaccademic form{
+    width: 60vw;
+    margin: auto;
+    background-color: #1b416a
+}
+.discrip{
+padding-top:100px ;
+    width: 100vw;
+    
+}
+.discrip ul{
+    width: 60%;
+    margin: auto;
+}
+.Aarr{
+width: 100vw;
+}
+.arr{
+    padding: 50px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+   
+}
+.arrEle img{
+margin-top: 2%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}.teacherCard {
+    height: 50vh;
+   box-shadow:0 0 23px -3px #000000; 
+ 
+   margin-top: 5%;
+}
+.teacherCard p{
+    font-size: 17px;
+    font-style: normal;
+    height: 60px;
+}
+.teacherCard img{
+    height: 50%;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .nav{
+        overflow: scroll;
+    flex-wrap: nowrap;
+    }
+    .cardin{
+        width: 99vw;
+    }
+    .cards img{
+        width: 95%;
+        padding: 0;
+        
+    }
+    .cards{
+        overflow: hidden;
+    }
+    .cardin p {
+        font-size: 16px;
+    }
+    .card{
+        width: 80vw;
+    }
+}
