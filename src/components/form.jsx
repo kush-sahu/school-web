@@ -3,13 +3,14 @@ function Form() {
     return <>
         <div className="discrip">
             <ul >
-                <center><h1>Process</h1></center>
+                <center><h1>Process</h1>
                 
                 <p>Admission forms are available for download on our website. Submit the completed form along with the required documents at the school office. Our admissions team is available to assist with any queries and guide you through the process.</p>
-
-                <center><h1>Criteria</h1></center>
+                </center>
+                <center><h1>Criteria</h1>
                 
                 <p>Admission is based on merit and the availability of seats. For certain grades, entrance tests may be conducted to assess the suitability of the applicant. We aim to ensure a fair and transparent admission process.</p>
+                </center>
                 <li>Admission Form Availability:<spam className="text-danger">March 1st</spam>
                 </li>
                 <li>Last Date for Submission: <spam className="text-danger">March 31st</spam></li>
@@ -19,6 +20,7 @@ function Form() {
                     Announcement of Results:<span className="text-danger"> April 30th</span> </li>
             </ul>
         </div>
+       
         <div className="formaccademic">
 
             <form className="container mt-5">
@@ -84,7 +86,7 @@ function Form() {
 
         </div>
 
-
+       
 
 
 

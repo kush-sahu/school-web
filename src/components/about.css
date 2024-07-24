@@ -95,7 +95,9 @@ margin-top: 2%;
     height: 50%;
 }
 
-
+.arrimg{
+    width:20vw ;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -119,5 +121,14 @@ margin-top: 2%;
     }
     .card{
         width: 80vw;
+    }
+    .arr{
+        width: 100%;
+    }
+    .arrEle img{
+        width: 100%;
+    }
+    .discrip ul {
+        width: 98%;
     }
 }

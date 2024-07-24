@@ -3,11 +3,11 @@ import Footer from "./footer";
 function About() {
     return <>
 
-        <div class="col-14 col-md-10 offset-md-1">
+        <div className="col-14 col-md-10 offset-md-1">
             <img
                 src="https://www.barton.dalesmat.org/wp-content/uploads/2018/05/school-front.jpg"
                 alt=""
-                class="img-fluid"
+                className="img-fluid"
             />
         </div>
 

@@ -1,12 +1,12 @@
 
 
-
+import "./about.css";
 import React from 'react';
 
 function Card({ text, para, bt_text, col }) {
   const cardStyle = {
     backgroundColor: col,
-    width: '20vw',
+    // width: '20vw',
     color:'white',
     height: '35vh',
     display: 'flex',
@@ -18,7 +18,7 @@ function Card({ text, para, bt_text, col }) {
   };
 
   return (
-    <div className="row" >
+    <div className="row  homecard "  >
       <div className="card"style={cardStyle} >
         <div className="card-body " style={cardStyle}>
           <h5 className="card-title" style={{ textAlign: 'center' }}>{text}</h5>

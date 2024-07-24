@@ -9,3 +9,43 @@ ul{
     /* position: fixed; */
     z-index: 3;
 }
+.logocl{
+    display: none;
+
+}
+.card{
+    width: 20vw;
+}
+.sliderkush{
+    height: 90vh;
+    width: 95vw;
+}
+@media screen and (max-width: 900px) {
+.nav{
+    padding-top: 50px;
+}
+    .schname{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .logocl{
+        z-index: 5;
+        width: 100vw;
+        background-color: aliceblue;
+        position: fixed;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sliderkush{
+       height: 100vw;
+       width: 100vw;
+    }
+    .homecard{
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

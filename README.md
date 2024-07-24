@@ -53,6 +53,9 @@ To set up the project locally, follow these steps:
 
 
 npm install
+
+
+
 3. **Run the development server:**
 
 

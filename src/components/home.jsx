@@ -6,6 +6,7 @@ import Card from './card';
 import school from '../assets/homeschool.png' ;
 import parents from '../assets/parents.png';
 import Footer from './footer.jsx'
+import "./nav.css";
 
 const images = [
     { url: 'https://internationalteacherstraining.com/blog/wp-content/uploads/2018/08/171219-teacher-stock.jpg', alt: 'School Image 1' },
@@ -39,7 +40,7 @@ const App = () => {
             <Slider {...settings} style={{ width: '100vw', overflow: 'hidden', }}>
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img src={image.url} alt={image.alt} style={{ width: '80vw', height: '80vh', padding: '40px', margin: 'auto', marginTop: '4%' }} />
+                        <img className='sliderkush' src={image.url} alt={image.alt} style={{  padding: '40px', margin: 'auto', marginTop: '2%' }} />
                     </div>
                 ))}
             </Slider>
@@ -55,25 +56,25 @@ const App = () => {
                     />
                 ))}
 
-                <div class="col-12 col-md-9 offset-md-1">
+                <div className="col-12 col-md-9 offset-md-1">
                     <img
                         src="https://static.wixstatic.com/media/1e7c2e_eaf18b8f5ead4ed0808df41e9a840607~mv2.jpg/v1/crop/x_0,y_172,w_2048,h_662/fill/w_1225,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/405286626_1099738271035183_7612277447021.jpg"
                         alt=""
-                        class="img-fluid"
+                        className="img-fluid"
                     />
                 </div>
 
                 <center >
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-8">
-                                <h1 class="text-center">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-12 col-md-8">
+                                <h1 className="text-center">
                                     Welcome to Springdale Public School, where we nurture young minds for a brighter future.
                                 </h1>
-                                <p class="text-center">
+                                <p className="text-center">
                                     "Welcome to Springdale Public School, where we nurture young minds for a brighter future." At Springdale, we believe that every child possesses unique potential waiting to be unlocked. Our dedicated educators foster a supportive and stimulating environment that encourages curiosity, creativity, and critical thinking. By blending innovative teaching methods with a strong foundation of core values, we ensure our students are well-equipped for the challenges of tomorrow.
                                 </p>
-                                <p class="text-center">
+                                <p className="text-center">
                                     Join us in our mission to cultivate the leaders, thinkers, and innovators of the future. At Springdale Public School, we guide each student on their path to success and fulfillment, providing them with the tools and confidence they need to excel in an ever-evolving world. Together, we are committed to building a brighter future for our students and the community.
                                 </p>
                             </div>

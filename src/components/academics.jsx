@@ -22,7 +22,7 @@ function Accademic() {
             <img
                 src="https://www.whsb.essex.sch.uk/_site/data/files/images/auto_upload/news-story/F195E0670F96BB90777B29DF3BA5B72B.jpg"
                 alt=""
-                class="img-fluid"
+                className="img-fluid"
             />
         </div>
 
@@ -33,7 +33,7 @@ function Accademic() {
 
                 {arr.map((arr, index) => (
                     <div key={index} className="arrEle">
-                        <img src={arr.url} alt="" style={{ width: '20vw', height: '35vh '}}/>
+                        <img className="arrimg" src={arr.url} alt="" style={{  height: '35vh '}}/>
                     </div>
                 ))}
             </div>
