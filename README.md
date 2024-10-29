@@ -42,7 +42,7 @@ This project is designed to showcase the school’s infrastructure, facilities, 
 
 ## View
 ![HOME](home.png)
-
+![HOME](children.png)
 ## Installation
 
 To set up the project locally, follow these steps:
