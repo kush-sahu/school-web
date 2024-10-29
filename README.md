@@ -40,6 +40,9 @@ This project is designed to showcase the school’s infrastructure, facilities, 
 - Dynamic content sections.
 - User-friendly navigation.
 
+## View
+![HOME](home.png)
+
 ## Installation
 
 To set up the project locally, follow these steps:
